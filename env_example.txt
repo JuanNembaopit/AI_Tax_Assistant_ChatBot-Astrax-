@@ -1,0 +1,23 @@
+########## Example isi .env:
+OPENAI_API_KEY={the_secret_api_key}
+MONGO_URI={the_uri}
+
+
+
+##### How to use:
+1. Add .env to your local folder
+2. In .env: Add OPENAI_API_KEY={the_secret_api_key} inside the file
+3. Load the key in your notebook/py file:
+
+```
+%pip install dotenv
+from dotenv import load_dotenv
+
+load_dotenv()
+OPENAI_API_KEY=os.getenv("OPENAI_API_KEY")
+```
+
+```
+load_dotenv()
+MONGO_URI=os.getenv("MONGO_URI")
+```

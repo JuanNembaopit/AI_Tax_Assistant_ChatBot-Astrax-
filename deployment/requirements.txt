@@ -1,0 +1,8 @@
+streamlit
+streamlit-option-menu
+pymongo
+langchain
+langchain-openai
+langchain-mongodb
+python-dotenv
+openai
